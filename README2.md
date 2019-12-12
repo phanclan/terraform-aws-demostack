@@ -22,6 +22,20 @@
  
  <TODO>
 
+
+## Changes
+- terraform.tfvars
+  - owner: i use my name
+  - primarynamespace
+  - secondarynamespace
+  - public_key
+  - servers: default is 3. test with 1
+  - workers: default is 3. test with 0 or 1
+  - vaultlicense
+  - consullicense
+  - enterprise = default is false. true for testing enterprise features
+
+
 ## troubleshooting
 To begin debugging, check the cloud-init output:
 
